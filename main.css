@@ -16,6 +16,7 @@ header > h1{
     text-align: center;
     font-family: Asap, sans-serif;
 }
+
 .scoreboard{
     margin: 20px auto;
     border: 3px solid white;
@@ -78,4 +79,19 @@ header > h1{
 .choice:hover{
     cursor: pointer;
     background: darkslategrey;
+}
+
+.green-glow{
+    border: 5px solid green;
+    box-shadow: 0 0 10px lightseagreen;
+}
+
+.red-glow{
+    border: 5px solid red;
+    box-shadow: 0 0 10px rosybrown;
+}
+
+.grey-glow{
+    border: 5px solid darkgrey;
+    box-shadow: 0 0 10px whitesmoke;
 }
